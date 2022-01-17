@@ -1,0 +1,5 @@
+- import_playbook: tasks/acl_config.yaml
+- import_playbook: tasks/ospf_config.yaml
+- import_playbook: tasks/iproute_config.yaml
+- import_playbook: tasks/backups_running-config.yaml
+- import_playbook: tasks/get_ipv4_config.yaml
