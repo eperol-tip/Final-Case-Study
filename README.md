@@ -1,4 +1,4 @@
-# Final-Case-Study
+# Final Case Study
 This repository is for Final Case Study in CPE 028 - Developing Applications and Automation made by Elain Perol
 
 ## Network Automation using Ansible
