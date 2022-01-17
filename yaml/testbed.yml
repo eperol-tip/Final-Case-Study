@@ -1,0 +1,27 @@
+devices:
+  R1:
+    connections:
+      cli:
+        ip: 10.0.0.1
+        protocol: ssh -o KexAlgorithms=diffie-hellman-group1-sha1
+    credentials:
+      default:
+        password: '%ENC{w5PDosOUw5fDosKQwpbCmA==}'
+        username: cisco
+      enable:
+        password: '%ASK{}'
+    os: ios
+    type: ios
+  R2:
+    connections:
+      cli:
+        ip: 10.0.0.2
+        protocol: ssh -o KexAlgorithms=diffie-hellman-group1-sha1
+    credentials:
+      default:
+        password: '%ENC{w5PDosOUw5fDosKQwpbCmA==}'
+        username: cisco
+      enable:
+        password: '%ASK{}'
+    os: ios
+    type: ios
